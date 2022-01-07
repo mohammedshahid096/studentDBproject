@@ -1,6 +1,6 @@
 # student DataBase project:
 ###### project link-
-https://studentprojectdb.000webhostapp.com/deleteeditfile.php
+https://studentprojectdb.000webhostapp.com/index.php
 ## About project :-
 this project is dynamically which means it is  connected with **Data Base** 
 soo, what ever the user inserted the  *Data* it will directely store in the **Data Base**
