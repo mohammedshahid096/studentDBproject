@@ -1,0 +1,214 @@
+
+body {
+
+    background-color: rgba(0, 0, 0, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#heading {
+    background-color: pink;
+    height: 49px;
+    font-size: 42px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 15px;
+}
+#navbar{
+    height: 40px;
+    margin-top: 6px;
+
+}
+nav{
+
+  display: flex;
+    height: 40px;
+    align-items: center;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    
+}
+.navitems{
+    margin-left: 25px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+    
+}
+#main{
+    /* height: 200px; */
+    background-color: white;
+    margin-top: 6px;
+    color: black;
+}
+#headingrecord{
+    position: relative;
+    top: 15px;
+    left: 15px;
+font-size: 42px;
+font-weight: 600;
+}
+#showingtable{
+    margin-top: 35px;
+    font-size: 30px;
+}
+
+tr th{
+    background-color: aqua;
+    width: 240px;
+    height: 40px;
+    border-width: 3px;
+    border-color: black;
+
+}
+tr td{
+    font-size: 20px;
+    padding-left: 10px;
+    border-width: 2.5px;
+}
+
+.button{
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.384);
+    margin-left: 25px;
+
+}
+
+/* this css is for addfile html purpose */
+#addmain{
+    background-color: white;
+    margin-top: 6px;
+    color: black;
+}
+#headingadd{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(19, 18, 17, 0.61);
+    margin-left: 10cm;
+
+}
+#addmain2{
+    width: 14.3cm;
+    background-color: rgba(201, 196, 196, 0.712);
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 40px 10px 40px;
+    
+    
+}
+#addtextdiv{
+    font-size: 27px;
+    margin-left: 15px;
+    line-height: 64px;
+    
+}
+#addinputdiv{
+    line-height: 65px;
+
+}
+.textbox{
+    font-size: 25px;
+    
+}
+#submitbutton{
+    background-color: blue;
+    font-size: 25px;
+    margin-left: 45px;
+}
+
+/* thsi is a update page now */
+#updatepage{
+    background-color: white;
+    margin-top: 6px;
+    color: black;
+}
+#headingedit{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(19, 18, 17, 0.863);
+    margin-left: 10cm;
+}
+#idcontainer{
+    width: 520px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: rgba(201, 196, 196, 0.712);
+    font-size: 30px;
+    margin-top: 20px;
+    
+ 
+}
+#idname{
+    padding-left: 25px;
+    padding-top: 20px;
+    float: left;
+}
+#idtextbox{
+    font-size: 24px;
+    margin-left: 25px;
+    margin-top: 21px;
+    width: 75%;
+}
+#updatebutton{
+    font-size: 25px;
+    margin-top: 16px;
+    margin-left: 5cm;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+#updateeditshow{
+    background-color: rgba(201, 196, 196, 0.712);
+    width: 520px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 15px;
+    height: 100%;
+    /* visibility: hidden; */
+}
+#updatename1{
+    width: 36%;
+    font-size: 15px;
+    line-height: 49px;
+    word-spacing: 100px;
+    margin-left: 30px;
+}
+#updateinput2{
+    line-height: 50px;
+
+}
+.textbox2{
+    font-size: 20px;
+}
+
+/* edit file css  */
+#headingupdate{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(19, 18, 17, 0.918);
+    margin-left: 1cm;
+}
+#updateblock{
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 20px 0 0 20px;
+    width: 50%;
+    background-color: rgba(201, 196, 196, 0.712);
+}
+.textbox3{
+    font-size: 18px;
+    margin-left: 2cm;
+   
+}
